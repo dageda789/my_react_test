@@ -1,5 +1,7 @@
 import React from 'react';
-import DivScroller from './examples/WindowScroller';
+import NiceTable from './components/NeceTable';
+// import NiceForm from './components/NiceForm';
+// import DivScroller from './examples/WindowScroller';
 
 
 
@@ -7,7 +9,9 @@ const App: React.FC = () => {
 
   return (
     <div>
-      <DivScroller />
+      {/* <DivScroller /> */}
+    测试组件
+    <NiceTable />
     </div>
   );
 };
